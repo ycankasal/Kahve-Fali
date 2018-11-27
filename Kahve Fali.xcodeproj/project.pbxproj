@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F189E16321AE0C6000DC567D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189E16221AE0C6000DC567D /* AppDelegate.swift */; };
+		F189E16521AE0C6000DC567D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189E16421AE0C6000DC567D /* FirstViewController.swift */; };
+		F189E16721AE0C6000DC567D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189E16621AE0C6000DC567D /* SecondViewController.swift */; };
+		F189E16A21AE0C6000DC567D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F189E16821AE0C6000DC567D /* Main.storyboard */; };
+		F189E16C21AE0C6000DC567D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F189E16B21AE0C6000DC567D /* Assets.xcassets */; };
+		F189E16F21AE0C6100DC567D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F189E16D21AE0C6100DC567D /* LaunchScreen.storyboard */; };
+		F189E17A21AE0C6100DC567D /* Kahve_FaliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189E17921AE0C6100DC567D /* Kahve_FaliTests.swift */; };
+		F189E18521AE0C6100DC567D /* Kahve_FaliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189E18421AE0C6100DC567D /* Kahve_FaliUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F189E17621AE0C6100DC567D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F189E15721AE0C6000DC567D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F189E15E21AE0C6000DC567D;
+			remoteInfo = "Kahve Fali";
+		};
+		F189E18121AE0C6100DC567D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F189E15721AE0C6000DC567D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F189E15E21AE0C6000DC567D;
+			remoteInfo = "Kahve Fali";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F189E15F21AE0C6000DC567D /* Kahve Fali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kahve Fali.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F189E16221AE0C6000DC567D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F189E16421AE0C6000DC567D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F189E16621AE0C6000DC567D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F189E16921AE0C6000DC567D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F189E16B21AE0C6000DC567D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F189E16E21AE0C6100DC567D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F189E17021AE0C6100DC567D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F189E17521AE0C6100DC567D /* Kahve FaliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kahve FaliTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F189E17921AE0C6100DC567D /* Kahve_FaliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kahve_FaliTests.swift; sourceTree = "<group>"; };
+		F189E17B21AE0C6100DC567D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F189E18021AE0C6100DC567D /* Kahve FaliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kahve FaliUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F189E18421AE0C6100DC567D /* Kahve_FaliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kahve_FaliUITests.swift; sourceTree = "<group>"; };
+		F189E18621AE0C6100DC567D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F189E15C21AE0C6000DC567D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F189E17221AE0C6100DC567D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F189E17D21AE0C6100DC567D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F189E15621AE0C6000DC567D = {
+			isa = PBXGroup;
+			children = (
+				F189E16121AE0C6000DC567D /* Kahve Fali */,
+				F189E17821AE0C6100DC567D /* Kahve FaliTests */,
+				F189E18321AE0C6100DC567D /* Kahve FaliUITests */,
+				F189E16021AE0C6000DC567D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F189E16021AE0C6000DC567D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F189E15F21AE0C6000DC567D /* Kahve Fali.app */,
+				F189E17521AE0C6100DC567D /* Kahve FaliTests.xctest */,
+				F189E18021AE0C6100DC567D /* Kahve FaliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F189E16121AE0C6000DC567D /* Kahve Fali */ = {
+			isa = PBXGroup;
+			children = (
+				F189E16221AE0C6000DC567D /* AppDelegate.swift */,
+				F189E16421AE0C6000DC567D /* FirstViewController.swift */,
+				F189E16621AE0C6000DC567D /* SecondViewController.swift */,
+				F189E16821AE0C6000DC567D /* Main.storyboard */,
+				F189E16B21AE0C6000DC567D /* Assets.xcassets */,
+				F189E16D21AE0C6100DC567D /* LaunchScreen.storyboard */,
+				F189E17021AE0C6100DC567D /* Info.plist */,
+			);
+			path = "Kahve Fali";
+			sourceTree = "<group>";
+		};
+		F189E17821AE0C6100DC567D /* Kahve FaliTests */ = {
+			isa = PBXGroup;
+			children = (
+				F189E17921AE0C6100DC567D /* Kahve_FaliTests.swift */,
+				F189E17B21AE0C6100DC567D /* Info.plist */,
+			);
+			path = "Kahve FaliTests";
+			sourceTree = "<group>";
+		};
+		F189E18321AE0C6100DC567D /* Kahve FaliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F189E18421AE0C6100DC567D /* Kahve_FaliUITests.swift */,
+				F189E18621AE0C6100DC567D /* Info.plist */,
+			);
+			path = "Kahve FaliUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F189E15E21AE0C6000DC567D /* Kahve Fali */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F189E18921AE0C6100DC567D /* Build configuration list for PBXNativeTarget "Kahve Fali" */;
+			buildPhases = (
+				F189E15B21AE0C6000DC567D /* Sources */,
+				F189E15C21AE0C6000DC567D /* Frameworks */,
+				F189E15D21AE0C6000DC567D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kahve Fali";
+			productName = "Kahve Fali";
+			productReference = F189E15F21AE0C6000DC567D /* Kahve Fali.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F189E17421AE0C6100DC567D /* Kahve FaliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F189E18C21AE0C6100DC567D /* Build configuration list for PBXNativeTarget "Kahve FaliTests" */;
+			buildPhases = (
+				F189E17121AE0C6100DC567D /* Sources */,
+				F189E17221AE0C6100DC567D /* Frameworks */,
+				F189E17321AE0C6100DC567D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F189E17721AE0C6100DC567D /* PBXTargetDependency */,
+			);
+			name = "Kahve FaliTests";
+			productName = "Kahve FaliTests";
+			productReference = F189E17521AE0C6100DC567D /* Kahve FaliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F189E17F21AE0C6100DC567D /* Kahve FaliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F189E18F21AE0C6100DC567D /* Build configuration list for PBXNativeTarget "Kahve FaliUITests" */;
+			buildPhases = (
+				F189E17C21AE0C6100DC567D /* Sources */,
+				F189E17D21AE0C6100DC567D /* Frameworks */,
+				F189E17E21AE0C6100DC567D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F189E18221AE0C6100DC567D /* PBXTargetDependency */,
+			);
+			name = "Kahve FaliUITests";
+			productName = "Kahve FaliUITests";
+			productReference = F189E18021AE0C6100DC567D /* Kahve FaliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F189E15721AE0C6000DC567D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = ycankasal;
+				TargetAttributes = {
+					F189E15E21AE0C6000DC567D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F189E17421AE0C6100DC567D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F189E15E21AE0C6000DC567D;
+					};
+					F189E17F21AE0C6100DC567D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F189E15E21AE0C6000DC567D;
+					};
+				};
+			};
+			buildConfigurationList = F189E15A21AE0C6000DC567D /* Build configuration list for PBXProject "Kahve Fali" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F189E15621AE0C6000DC567D;
+			productRefGroup = F189E16021AE0C6000DC567D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F189E15E21AE0C6000DC567D /* Kahve Fali */,
+				F189E17421AE0C6100DC567D /* Kahve FaliTests */,
+				F189E17F21AE0C6100DC567D /* Kahve FaliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F189E15D21AE0C6000DC567D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F189E16F21AE0C6100DC567D /* LaunchScreen.storyboard in Resources */,
+				F189E16C21AE0C6000DC567D /* Assets.xcassets in Resources */,
+				F189E16A21AE0C6000DC567D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F189E17321AE0C6100DC567D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F189E17E21AE0C6100DC567D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F189E15B21AE0C6000DC567D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F189E16721AE0C6000DC567D /* SecondViewController.swift in Sources */,
+				F189E16321AE0C6000DC567D /* AppDelegate.swift in Sources */,
+				F189E16521AE0C6000DC567D /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F189E17121AE0C6100DC567D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F189E17A21AE0C6100DC567D /* Kahve_FaliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F189E17C21AE0C6100DC567D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F189E18521AE0C6100DC567D /* Kahve_FaliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F189E17721AE0C6100DC567D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F189E15E21AE0C6000DC567D /* Kahve Fali */;
+			targetProxy = F189E17621AE0C6100DC567D /* PBXContainerItemProxy */;
+		};
+		F189E18221AE0C6100DC567D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F189E15E21AE0C6000DC567D /* Kahve Fali */;
+			targetProxy = F189E18121AE0C6100DC567D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F189E16821AE0C6000DC567D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F189E16921AE0C6000DC567D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F189E16D21AE0C6100DC567D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F189E16E21AE0C6100DC567D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F189E18721AE0C6100DC567D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F189E18821AE0C6100DC567D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F189E18A21AE0C6100DC567D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN8985X3SJ;
+				INFOPLIST_FILE = "Kahve Fali/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasarcan.Kahve-Fali";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F189E18B21AE0C6100DC567D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN8985X3SJ;
+				INFOPLIST_FILE = "Kahve Fali/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasarcan.Kahve-Fali";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F189E18D21AE0C6100DC567D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN8985X3SJ;
+				INFOPLIST_FILE = "Kahve FaliTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasarcan.Kahve-FaliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kahve Fali.app/Kahve Fali";
+			};
+			name = Debug;
+		};
+		F189E18E21AE0C6100DC567D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN8985X3SJ;
+				INFOPLIST_FILE = "Kahve FaliTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasarcan.Kahve-FaliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kahve Fali.app/Kahve Fali";
+			};
+			name = Release;
+		};
+		F189E19021AE0C6100DC567D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN8985X3SJ;
+				INFOPLIST_FILE = "Kahve FaliUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasarcan.Kahve-FaliUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kahve Fali";
+			};
+			name = Debug;
+		};
+		F189E19121AE0C6100DC567D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LN8985X3SJ;
+				INFOPLIST_FILE = "Kahve FaliUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasarcan.Kahve-FaliUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kahve Fali";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F189E15A21AE0C6000DC567D /* Build configuration list for PBXProject "Kahve Fali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F189E18721AE0C6100DC567D /* Debug */,
+				F189E18821AE0C6100DC567D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F189E18921AE0C6100DC567D /* Build configuration list for PBXNativeTarget "Kahve Fali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F189E18A21AE0C6100DC567D /* Debug */,
+				F189E18B21AE0C6100DC567D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F189E18C21AE0C6100DC567D /* Build configuration list for PBXNativeTarget "Kahve FaliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F189E18D21AE0C6100DC567D /* Debug */,
+				F189E18E21AE0C6100DC567D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F189E18F21AE0C6100DC567D /* Build configuration list for PBXNativeTarget "Kahve FaliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F189E19021AE0C6100DC567D /* Debug */,
+				F189E19121AE0C6100DC567D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F189E15721AE0C6000DC567D /* Project object */;
+}
