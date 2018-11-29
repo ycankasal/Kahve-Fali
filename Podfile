@@ -7,6 +7,17 @@ target 'Kahve Fali' do
 
   # Pods for Kahve Fali
   pod 'Parse'
+  pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'SCLAlertView'
+
+  pod 'Parse/FacebookUtils'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  
+  pod 'ALCameraViewController'
+  pod 'ActionSheetPicker-3.0'
+  pod 'UIScrollView-InfiniteScroll', '~> 1.1.0'
+
 
 
   target 'Kahve FaliTests' do
@@ -18,5 +29,10 @@ target 'Kahve Fali' do
     inherit! :search_paths
     # Pods for testing
   end
+
+
+#target 'OneSignalNotificationServiceExtension' do
+ # pod 'OneSignal', '>= 2.6.2', '< 3.0'
+#end
 
 end

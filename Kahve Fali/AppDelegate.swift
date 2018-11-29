@@ -14,10 +14,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        
+        
+        
+        Parse.enableLocalDatastore();
+
         let parseConfig = ParseClientConfiguration {
             $0.applicationId = "22af83fd005743690f0eefa5c4623411bdb0d5ff"
             $0.clientKey = "16b7490104a5d659cca9e8f46dfcf114864dea3f"
@@ -25,6 +31,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         Parse.initialize(with: parseConfig)
         
+        
+        PFFacebookUtils.initializeFacebook(applicationLaunchOptions: launchOptions);
         
         return true
     }
@@ -49,6 +57,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    
+    @nonobjc func application(_ app: UIApplication, open url: URL, options: [ UIApplication.OpenURLOptionsKey : Any ]) -> Bool?{
+        let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String;
+        let annotation = options[UIApplication.OpenURLOptionsKey.annotation];
+        
+        
+        let facebookHandler = FBSDKApplicationDelegate.sharedInstance()?.application(
+            app,
+            open: url,
+            sourceApplication: sourceApplication,
+            annotation: annotation);
+        
+        return facebookHandler;
     }
 
 
